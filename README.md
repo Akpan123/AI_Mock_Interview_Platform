@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# 🤖 AI_Mock_Interview_Platform
+# 🤖 NeuroPrep
 
 *Empowering Future Talent Through AI-Driven Interview Mastery*
 
