@@ -1,8 +1,3 @@
-Sure! Here's the **entire exact README code** in clean and properly formatted **Markdown**, ready for **copy-paste into your `README.md`** file. You can replace `your-username` with your actual GitHub username and project links as needed.
-
----
-
-````md
 <div align="center" class="text-center">  
   <h1>AI_MOCK_INTERVIEW_PLATFORM</h1>  
   <p><em>Empowering Future Talent Through AI-Driven Interview Mastery</em></p>  
