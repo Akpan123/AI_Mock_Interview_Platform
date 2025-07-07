@@ -1,7 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+AI+Mock+Interview+Platform; 
-  Aim+your+interview+journey+with+AI!&center=true&width=440&height=50&font=Fira+Code&color=2F80ED&vCenter=true&size=22">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+AI+Mock+Interview+Platform; Aim+your+interview+journey+with+AI!&center=true&width=440&height=50&font=Fira+Code&color=2F80ED&vCenter=true&size=22">
 </p>
 
 <div align="center">
