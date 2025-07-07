@@ -1,59 +1,90 @@
-<div align="center" class="text-center">  
-  <h1>AI_MOCK_INTERVIEW_PLATFORM</h1>  
-  <p><em>Empowering Future Talent Through AI-Driven Interview Mastery</em></p>  
+<!-- Banner -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+AI+Mock+Interview+Platform;Empower+your+interview+journey+with+AI!&center=true&width=440&height=50&font=Fira+Code&color=2F80ED&vCenter=true&size=22">
+</p>
 
-  <img alt="last-commit" src="https://img.shields.io/github/last-commit/your-username/AI_Mock_Interview_Platform" />
-  <img alt="repo-top-language" src="https://img.shields.io/github/languages/top/your-username/AI_Mock_Interview_Platform" />
-  <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/your-username/AI_Mock_Interview_Platform" />
+<div align="center">
 
-  <p><em>Built with the tools and technologies:</em></p>
+# 🤖 AI_Mock_Interview_Platform
 
-  <img alt="JSON" src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" />
-  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-  <img alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+*Empowering Future Talent Through AI-Driven Interview Mastery*
+
+<a href="https://ai-mock-interviews-five-flax.vercel.app/" target="_blank">
+  <img alt="Live Demo" src="https://img.shields.io/badge/Live-Demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/your-username/AI_Mock_Interview_Platform?style=for-the-badge" />
+<img alt="Languages Count" src="https://img.shields.io/github/languages/count/your-username/AI_Mock_Interview_Platform?style=for-the-badge" />
+<img alt="Top Language" src="https://img.shields.io/github/languages/top/your-username/AI_Mock_Interview_Platform?style=for-the-badge" />
+
+---
+
+### 🛠️ Built With
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,nodejs,express,firebase,javascript,vercel,openai" />
+
 </div>
 
 ---
 
-## 📑 Overview
+## 📌 Overview
 
-AI Mock Interview Platform is an intelligent web application that simulates real interview experiences. Designed for job-seekers, it helps users prepare by answering curated questions and receiving AI-generated feedback.
+The **AI Mock Interview Platform** is a smart, real-time interview preparation tool that allows users to practice with AI-generated questions, receive instant feedback, and track their performance — all in a secure and responsive web app.
+
+🧠 Perfect for:
+- Job-seekers & students
+- Developers prepping for tech interviews
+- Institutions building training tools
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Visit App](https://ai-mock-interviews-five-flax.vercel.app/)
 
 ---
 
 ## 📦 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** Firebase Firestore  
-- **Authentication:** Firebase Auth  
-- **Other Tools:** OpenAI API, JSON handling, Markdown rendering
+| Layer        | Tools Used                                      |
+|--------------|--------------------------------------------------|
+| **Frontend** | React.js, Tailwind CSS                          |
+| **Backend**  | Node.js, Express.js                             |
+| **Database** | Firebase Firestore                              |
+| **Auth**     | Firebase Authentication                         |
+| **AI**       | OpenAI GPT-3.5 API                              |
+| **Hosting**  | Vercel                                           |
 
 ---
 
-## 🚀 Quickstart
+## 🚀 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/AI_Mock_Interview_Platform.git
-   cd AI_Mock_Interview_Platform
+### 🧰 Prerequisites
+
+- Node.js & npm installed
+- Firebase project with config keys
+- OpenAI API Key
+
+### 📥 Installation
+
+```bash
+git clone https://github.com/your-username/AI_Mock_Interview_Platform.git
+cd AI_Mock_Interview_Platform
+npm install
 ````
 
-2. Install dependencies:
+Create a `.env` file and add your credentials:
 
-   ```bash
-   npm install
-   ```
+```env
+VITE_OPENAI_API_KEY=your_openai_key
+VITE_FIREBASE_API_KEY=your_firebase_key
+# Add other Firebase credentials here
+```
 
-3. Add your `.env` file with OpenAI and Firebase credentials.
+### ▶️ Run the App
 
-4. Run the application:
-
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
 ---
 
@@ -63,10 +94,10 @@ AI Mock Interview Platform is an intelligent web application that simulates real
 AI_Mock_Interview_Platform/
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── utils/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # App routes
+│   ├── services/       # Firebase & OpenAI logic
+│   └── utils/          # Helper functions
 ├── .env
 ├── package.json
 └── README.md
@@ -76,47 +107,54 @@ AI_Mock_Interview_Platform/
 
 ## ✨ Features
 
-* ✍️ AI-generated mock interview questions
-* 🧠 Real-time analysis and feedback
-* 🔒 Secure login with Firebase Auth
+* ✍️ AI-generated interview questions
+* 🧠 Instant feedback powered by GPT
+* 🔒 Secure user authentication via Firebase
 * 📈 Performance tracking dashboard
-* 🌐 Responsive UI for all devices
+* 📄 Resume scoring with OpenAI (roadmap)
+* 🗣️ Voice-based simulation (coming soon!)
+* 💡 Admin panel for adding new questions (coming soon!)
 
 ---
 
 ## 🛣️ Roadmap
 
-* AI prompt response engine
-* User authentication and profile setup
-* Resume PDF scoring
-* Admin dashboard for question curation
-* Voice-based interview simulation
+* ✅ AI-generated question engine
+* ✅ Real-time feedback
+* 🔲 Resume parsing and scoring
+* 🔲 Voice-based answers
+* 🔲 Admin dashboard
+* 🔲 Mobile optimization
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-Feel free to fork the repository and submit pull requests. All contributions are appreciated!
+We welcome contributions! To contribute:
+
+1. 🍴 Fork this repo
+2. 🛠️ Create your feature branch: `git checkout -b feature/your-feature`
+3. 💾 Commit your changes: `git commit -m 'Add some feature'`
+4. 📤 Push to the branch: `git push origin feature/your-feature`
+5. 🧃 Open a Pull Request
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## 🙏 Acknowledgements
 
-Thanks to:
-
-* OpenAI
-* Firebase
-* [Shields.io](https://shields.io)
-* Everyone contributing to open-source ❤️
+* 💡 [OpenAI](https://openai.com/)
+* 🔥 [Firebase](https://firebase.google.com/)
+* 📊 [Shields.io](https://shields.io/)
+* ❤️ All open-source contributors
 
 ---
 
-## 📍 Live Demo
+> Built with 💻 by AKSHAT(https://github.com/Akpan123)
 
-* https://ai-mock-interviews-five-flax.vercel.app/
+```
