@@ -12,9 +12,9 @@
 <a href="https://ai-mock-interviews-five-flax.vercel.app/" target="_blank">
   <img alt="Live Demo" src="https://img.shields.io/badge/Live-Demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/your-username/AI_Mock_Interview_Platform?style=for-the-badge" />
-<img alt="Languages Count" src="https://img.shields.io/github/languages/count/your-username/AI_Mock_Interview_Platform?style=for-the-badge" />
-<img alt="Top Language" src="https://img.shields.io/github/languages/top/your-username/AI_Mock_Interview_Platform?style=for-the-badge" />
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Akpan123/AI_Mock_Interview_Platform?style=for-the-badge" />
+<img alt="Languages Count" src="https://img.shields.io/github/languages/count/Akpan123/AI_Mock_Interview_Platform?style=for-the-badge" />
+<img alt="Top Language" src="https://img.shields.io/github/languages/top/Akpan123/AI_Mock_Interview_Platform?style=for-the-badge" />
 
 ---
 
